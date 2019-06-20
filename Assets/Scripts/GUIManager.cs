@@ -2,96 +2,93 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GUIManager : MonoBehaviour
+public class GUI_Manager : MonoBehaviour
 {
-    public bool showOptions, showMainMenu;
+    public int showUI;
     public string saveData, gameData;
-    public GameObject mainMenu, options;
+    public GameObject mainMenu, options, gameUI;
+    public int currentWave, currentHealth, currentAmmo;
 
 
     void Awake()
     {
-        showOptions = false;
-        showMainMenu = true;
+        showUI = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (showMainMenu)
-            showOptions = false;
-
-        if (showOptions)
-            showMainMenu = false;
+        SwitchUI();
     }
 
-    void Play()
+    void SwitchUI()
     {
-        //if (saveData != null)
+        switch (showUI)
         {
-            showMainMenu = false;
-            showOptions = false;
+            default:
+                break;
+
+            case 1:
+                mainMenu.SetActive(true);
+                options.SetActive(false);
+                gameUI.SetActive(false);
+                break;
+            case 2:
+                mainMenu.SetActive(false);
+                options.SetActive(true);
+                gameUI.SetActive(false);
+                break;
+            case 3:
+                mainMenu.SetActive(false);
+                options.SetActive(false);
+                gameUI.SetActive(true);
+                break;
         }
     }
 
-    void ShowOptions()
+    public void Play()
     {
-        ToggleOptions();
+        //Load();
+        showUI = 3;
     }
 
-    public bool ToggleMenu()
+    public void NewGame()
     {
-        if (showMainMenu)
-        {
-            mainMenu.SetActive(true);
-            options.SetActive(false);
-            // Pause active game
-            return true;
-        }
-        else
-        {
-            mainMenu.SetActive(false);
-            return false;
-        }
+        PlayerPrefs.SetInt("wave", 0);
+        PlayerPrefs.SetInt("health", 100);
+        PlayerPrefs.SetInt("ammo", 100);
+        showUI = 3;
     }
 
-    public bool ToggleOptions()
+    public void Pause()
     {
-        if (showOptions)
-        {
-            mainMenu.SetActive(false);
-            options.SetActive(true);
-            return false;
-        }
-        else
-        {
-            options.SetActive(false);
-            return true;
-        }
+        showUI = 2;
     }
 
-    void Pause()
+    public void MainMenu()
     {
-        showOptions = true;
+        Save();
+        showUI = 1;
     }
 
-    void Exit()
-    {
-        showMainMenu = true;
-    }
-
-    void Quit()
+    public void Quit()
     {
         Application.Quit();
     }
 
     void Save()
     {
-        // Set Player Prefs
+        // Get Player Prefs
+        PlayerPrefs.SetInt("wave", currentWave);
+        PlayerPrefs.SetInt("health", currentHealth);
+        PlayerPrefs.SetInt("ammo", currentAmmo);
     }
 
     void Load()
     {
         // Get Player Prefs
+        PlayerPrefs.GetInt("wave", currentWave);
+        PlayerPrefs.GetInt("health", currentHealth);
+        PlayerPrefs.GetInt("ammo", currentAmmo);
     }
 }
