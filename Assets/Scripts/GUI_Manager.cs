@@ -9,12 +9,13 @@ namespace Epsilon
     public class GUI_Manager : MonoBehaviour
     {
         public int showUI;
-        public string wave, health, ammo;
+        public string wave, health; //ammo
         public GameObject mainMenu, options, gameUI;
         public int currentWave, currentHealth, currentAmmo;
         public bool mute;
         public Toggle muteToggle;
         public AudioSource music, sfx;
+        public GameObject player;
 
 
         void Awake()
@@ -72,7 +73,7 @@ namespace Epsilon
         {
             PlayerPrefs.SetInt(wave, 0);
             PlayerPrefs.SetInt(health, 100);
-            PlayerPrefs.SetInt(ammo, 100);
+            //PlayerPrefs.SetInt(ammo, 100);
             showUI = 3;
         }
 
@@ -126,7 +127,7 @@ namespace Epsilon
             // Get Player Prefs
             PlayerPrefs.SetInt(wave, currentWave);
             PlayerPrefs.SetInt(health, currentHealth);
-            PlayerPrefs.SetInt(ammo, currentAmmo);
+            //PlayerPrefs.SetInt(ammo, currentAmmo);
         }
 
         void Load()
@@ -134,7 +135,7 @@ namespace Epsilon
             // Get Player Prefs
             PlayerPrefs.GetInt(wave, currentWave);
             PlayerPrefs.GetInt(health, currentHealth);
-            PlayerPrefs.GetInt(ammo, currentAmmo);
+            // PlayerPrefs.GetInt(ammo, currentAmmo);
         }
         #endregion
     }
