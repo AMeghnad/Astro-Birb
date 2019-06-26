@@ -1,22 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-namespace Epsilon
+
+public class Health : MonoBehaviour
 {
-    public class Health : MonoBehaviour
+    public float maxHealth;
+    public float currentHealth;
+
+    // Start is called before the first frame update
+    public void Start()
     {
-        protected int health;
-        // Start is called before the first frame update
-        public virtual void Start()
+        maxHealth = 100;
+        currentHealth = maxHealth;
+    }
+
+    // Update is called once per frame
+    public void Update()
+    {
+        if (currentHealth > maxHealth)
         {
-            health = 100;
+            currentHealth = maxHealth;
         }
-
-        // Update is called once per frame
-        public virtual void Update()
+        if (currentHealth < 0)
         {
-
+            currentHealth = 0;
         }
     }
 }
