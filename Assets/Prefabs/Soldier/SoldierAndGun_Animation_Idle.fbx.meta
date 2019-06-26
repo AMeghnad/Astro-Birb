@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 6a593bf69a4e47c4681f3fb279841f3b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Canister_1
+    100002: Canister_2
+    100004: Canister_3
+    100006: Canister_4
+    100008: Canister_5
+    100010: Canister_6
+    100012: Controller_Character
+    100014: Crotch_Plate
+    100016: Gun_Feather_Rifle
+    100018: L_Ankle
+    100020: L_Elbow
+    100022: L_Elbow_Pad
+    100024: L_Foot_Back
+    100026: L_Foot_Front
+    100028: L_Hand_1
+    100030: L_Hand_2
+    100032: L_Hip
+    100034: L_Knee
+    100036: L_Knee_Pad
+    100038: L_Shoulder
+    100040: L_Shoulder_Pad
+    100042: L_Wrist
+    100044: R_Ankle
+    100046: R_Elbow
+    100048: R_Elbow_Pad
+    100050: R_Foot_Back
+    100052: R_Foot_Front
+    100054: R_Hand_1
+    100056: R_Hand_2
+    100058: R_Hip
+    100060: R_Knee
+    100062: R_Knee_Pad
+    100064: R_Shoulder
+    100066: R_Shoulder_Pad
+    100068: R_Wrist
+    100070: //RootNode
+    100072: Solider_Model
+    100074: Spine_1_Root
+    100076: Spine_2_Stomach
+    100078: Spine_3_Chest
+    100080: Spine_4_Neck_Bottom
+    100082: Spine_5_Neck_Top
+    100084: Spine_6_Head
+    100086: Spine_7_Head_Top_End
+    400000: Canister_1
+    400002: Canister_2
+    400004: Canister_3
+    400006: Canister_4
+    400008: Canister_5
+    400010: Canister_6
+    400012: Controller_Character
+    400014: Crotch_Plate
+    400016: Gun_Feather_Rifle
+    400018: L_Ankle
+    400020: L_Elbow
+    400022: L_Elbow_Pad
+    400024: L_Foot_Back
+    400026: L_Foot_Front
+    400028: L_Hand_1
+    400030: L_Hand_2
+    400032: L_Hip
+    400034: L_Knee
+    400036: L_Knee_Pad
+    400038: L_Shoulder
+    400040: L_Shoulder_Pad
+    400042: L_Wrist
+    400044: R_Ankle
+    400046: R_Elbow
+    400048: R_Elbow_Pad
+    400050: R_Foot_Back
+    400052: R_Foot_Front
+    400054: R_Hand_1
+    400056: R_Hand_2
+    400058: R_Hip
+    400060: R_Knee
+    400062: R_Knee_Pad
+    400064: R_Shoulder
+    400066: R_Shoulder_Pad
+    400068: R_Wrist
+    400070: //RootNode
+    400072: Solider_Model
+    400074: Spine_1_Root
+    400076: Spine_2_Stomach
+    400078: Spine_3_Chest
+    400080: Spine_4_Neck_Bottom
+    400082: Spine_5_Neck_Top
+    400084: Spine_6_Head
+    400086: Spine_7_Head_Top_End
+    2100000: lambert1
+    2300000: Canister_1
+    2300002: Canister_2
+    2300004: Canister_3
+    2300006: Canister_4
+    2300008: Canister_5
+    2300010: Canister_6
+    2300012: Crotch_Plate
+    2300014: Gun_Feather_Rifle
+    2300016: L_Elbow_Pad
+    2300018: L_Knee_Pad
+    2300020: L_Shoulder_Pad
+    2300022: R_Elbow_Pad
+    2300024: R_Knee_Pad
+    2300026: R_Shoulder_Pad
+    3300000: Canister_1
+    3300002: Canister_2
+    3300004: Canister_3
+    3300006: Canister_4
+    3300008: Canister_5
+    3300010: Canister_6
+    3300012: Crotch_Plate
+    3300014: Gun_Feather_Rifle
+    3300016: L_Elbow_Pad
+    3300018: L_Knee_Pad
+    3300020: L_Shoulder_Pad
+    3300022: R_Elbow_Pad
+    3300024: R_Knee_Pad
+    3300026: R_Shoulder_Pad
+    4300000: Solider_Model
+    4300002: L_Elbow_Pad
+    4300004: L_Shoulder_Pad
+    4300006: R_Elbow_Pad
+    4300008: R_Shoulder_Pad
+    4300010: Canister_1
+    4300012: Canister_2
+    4300014: Canister_3
+    4300016: Canister_4
+    4300018: Canister_5
+    4300020: Canister_6
+    4300022: L_Knee_Pad
+    4300024: R_Knee_Pad
+    4300026: Crotch_Plate
+    4300028: Gun_Feather_Rifle
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Solider_Model
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 10
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
