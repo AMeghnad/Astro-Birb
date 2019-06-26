@@ -258,7 +258,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &196200597
 GameObject:
@@ -2036,7 +2036,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1424959155
 GameObject:
@@ -2375,7 +2375,7 @@ RectTransform:
   - {fileID: 1323886971}
   - {fileID: 849174084}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2923,75 +2923,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018781672}
   m_CullTransparentMesh: 0
---- !u!1001 &2099496808
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 100070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_Name
-      value: SoldierAndGun_Animation_Idle
-      objectReference: {fileID: 0}
-    - target: {fileID: 100070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -113.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -85.60435
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400070, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 7b1f7fc2587afcb4aac64043a8100c02, type: 2}
-    - target: {fileID: 9500000, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6a593bf69a4e47c4681f3fb279841f3b, type: 3}
 --- !u!1 &2142532701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3133,7 +3064,7 @@ PrefabInstance:
     - target: {fileID: 1651651478887624283, guid: c747d7956d7b6c14196f86090eda645c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1651651478887624283, guid: c747d7956d7b6c14196f86090eda645c,
         type: 3}
